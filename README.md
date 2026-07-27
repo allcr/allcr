@@ -20,7 +20,7 @@ Interests that keep showing up in the work: stochastic processes, Bayesian data 
 ## Working on 
 
 ** pmdgp  
-I'm teaching myself drift monitoring by building a world that drifts on command (work in progress). I didn't feel comfortable trying to learn how to use these tools without good data; I couldn't find anything that had any prebuild drifts that I was happy with.  So instead of pointing monitoring tools at data I didn't like, I'm building the data-generating process myself: a stochastic machine-degradation simulation with seven configurable drift regimes I can inject at will. 
+I'm teaching myself model drift monitoring by building a world that drifts on command (work in progress). I didn't feel comfortable trying to learn how to use these tools without good data; I couldn't find anything that had any prebuild drifts that I was happy with.  So instead of pointing monitoring tools at data I didn't like, I'm building the data-generating process myself: a stochastic machine-degradation simulation with seven configurable drift regimes I can inject at will. 
 
 The data generating process models the operation of a machine in a factory and the wear-and-tear of daily use. We also model the costs associated with repair, and multiple repairmen with different skill sets. 
 
