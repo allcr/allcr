@@ -13,7 +13,7 @@ Daily: Python (Polars, NumPy, scikit-learn), R, Stan/brms, SQL, git, Linux.
 Deep history: q/kdb+ from execution-desk years. 
 
 Working: Docker, Kafka-style streaming, TimescaleDB, Grafana, GPU training (ROCm).
-Interests that keep showing up in the work: stochastic processes,
+Interests that keep showing up in the work: stochastic processes, Bayesian data anylsis and models
 
 
 ## Working on 
