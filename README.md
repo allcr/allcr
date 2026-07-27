@@ -34,6 +34,10 @@ Currently using four models to predict when the machine needs to be serviced:
 
 I'm working my way through the text book [Bayesian Workflow](https://www.routledge.com/Bayesian-Workflow/Gelman-Vehtari-McElreath-Simpson-Margossian-Yao-Kennedy-Gabry-Burkner-Modrak-Barajas/p/book/9780367490140) and logging my code here.
 
+** sta9794_redux
+Refactoring the final project from my Experimental Design and Causal Inference course to include more robust methods. 
+
+
 ## Now 
 
 Building out the pmdgp lab (fleet calibration, hierarchical hyperpriors in Stan) and looking for data science / quantitative roles
