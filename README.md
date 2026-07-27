@@ -30,6 +30,9 @@ Currently using four models to predict when the machine needs to be serviced:
 - a Bayesian Dynamic linear model, and 
 - a fixed repair schuedule of thirty days. 
 
+** Bayesian Workflow
+
+I'm working my way through the text book [Bayesian Workflow](https://www.routledge.com/Bayesian-Workflow/Gelman-Vehtari-McElreath-Simpson-Margossian-Yao-Kennedy-Gabry-Burkner-Modrak-Barajas/p/book/9780367490140) and logging my code here.
 
 ## Now 
 
