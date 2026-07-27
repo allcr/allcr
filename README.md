@@ -29,4 +29,9 @@ Currently using four models to predict when the machine needs to be serviced:
 - a Bayesian Dynamic linear model, and 
 - a fixed repair schuedule of thirty days. 
 
+
+## Now 
+
+Building out the pmdgp lab (fleet calibration, hierarchical hyperpriors in Stan) and looking for data science / quantitative roles
+
 [LinkedIn](https://linkedin.com/in/craigjallen) 
