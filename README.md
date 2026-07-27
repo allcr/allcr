@@ -1,4 +1,4 @@
-# Craig
+# Craig Allen
 
 Data scientist by way of ten years in financial services: trade-floor
 systems, an algorithmic execution desk, and risk & regulatory
