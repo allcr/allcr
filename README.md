@@ -1,10 +1,5 @@
 # Craig Allen
 
-Data scientist by way of ten years in financial services: trade-floor
-systems, an algorithmic execution desk, and risk & regulatory
-program work at a global bank. Currently finishing an M.S. in Statistics
-
-
 
 ## Toolbox
 
