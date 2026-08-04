@@ -33,6 +33,10 @@ I'm working my way through the text book [Bayesian Workflow](https://www.routled
 
 Refactoring the final project from my Experimental Design and Causal Inference course to include more robust methods. 
 
+** 2025 F1 Analysis
+
+Refactoring my F1 analysis into a presentable notebook/dashboard. 
+
 
 
 ## Now 
