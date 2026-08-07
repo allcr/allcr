@@ -3,11 +3,11 @@
 
 ## Toolbox
 
-Daily: Python (Polars, NumPy, scikit-learn), R, Stan/brms, SQL, git, Linux. 
+Daily: Python (Polars, statsmodels, scikit-learn), R, Stan/brms, SQL, git, Linux. 
 
 Deep history: q/kdb+ from execution-desk years. 
 
-Working: Docker, Kafka-style streaming, TimescaleDB, Grafana, GPU training (ROCm).
+Working: Docker, Kafka-style streaming, TimescaleDB, Grafana, GPU training (ROCm), QuestDB.
 
 Interests that keep showing up in the work: stochastic processes, Bayesian data anylsis and models
 
