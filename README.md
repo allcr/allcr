@@ -9,21 +9,11 @@ Deep history: q/kdb+ from execution-desk years.
 
 Working: Docker, Kafka-style streaming, TimescaleDB, Grafana, GPU training (ROCm), QuestDB.
 
-Interests that keep showing up in the work: stochastic processes, Bayesian data anylsis and models
+Interests that keep showing up in the work: stochastic processes, Bayesian data analysis and models
 
 
 ## Working on 
 
-** pmdgp  
-I'm teaching myself model drift monitoring by building a world that drifts on command (work in progress). I didn't feel comfortable trying to learn how to use these tools without good data; I couldn't find anything that had any prebuilt drifts that I was happy with.  So instead of pointing monitoring tools at data I didn't like, I'm building the data-generating process myself: a stochastic machine-degradation simulation with seven configurable drift regimes I can inject at will. 
-
-The data generating process models the operation of a machine in a factory and the wear-and-tear of daily use. We also model the costs associated with repair, and multiple repairmen with different skill sets. 
-
-Currently using four models to predict when the machine needs to be serviced:
-- An Oracle model that sees the ground truth and knows exactly when and how the machine will break\which repairman to call, 
-- A Vowpal Wabbit contextual bandit,
-- a Bayesian Dynamic linear model, and 
-- a fixed repair schuedule of thirty days. 
 
 ** Bayesian Workflow
 
@@ -35,12 +25,22 @@ Refactoring the final project from my Experimental Design and Causal Inference c
 
 ** 2025 F1 Analysis
 
-Refactoring my F1 analysis into a presentable notebook/dashboard. 
+Refactoring my F1 analysis into a presentable notebook/dashboard/Shiny application. 
 
 
+** pmdgp  
 
-## Now 
+I've decided against publishing this as the work to get the data generating process working was detracting from the main goal of reliably monitoring model drift via a dashboard. 
 
-Building out the pmdgp lab (fleet calibration, hierarchical hyperpriors in Stan) and looking for data science / quantitative roles
+~~I'm teaching myself model drift monitoring by building a world that drifts on command (work in progress). I didn't feel comfortable trying to learn how to use these tools without good data; I couldn't find anything that had any prebuilt drifts that I was happy with.  So instead of pointing monitoring tools at data I didn't like, I'm building the data-generating process myself: a stochastic machine-degradation simulation with seven configurable drift regimes I can inject at will. 
+
+The data generating process models the operation of a machine in a factory and the wear-and-tear of daily use. We also model the costs associated with repair, and multiple repairmen with different skill sets. 
+
+Currently using four models to predict when the machine needs to be serviced:
+- An Oracle model that sees the ground truth and knows exactly when and how the machine will break\which repairman to call, 
+- A Vowpal Wabbit contextual bandit,
+- a Bayesian Dynamic linear model, and 
+- a fixed repair schuedule of thirty days. ~~
+
 
 [LinkedIn](https://linkedin.com/in/craigjallen) 
