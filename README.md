@@ -40,7 +40,7 @@ Currently using four models to predict when the machine needs to be serviced:
 - An Oracle model that sees the ground truth and knows exactly when and how the machine will break\which repairman to call, 
 - A Vowpal Wabbit contextual bandit,
 - a Bayesian Dynamic linear model, and 
-- a fixed repair schuedule of thirty days. ~~
+- a fixed repair schuedule of thirty days.~~
 
 
 [LinkedIn](https://linkedin.com/in/craigjallen) 
