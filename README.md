@@ -30,17 +30,17 @@ Refactoring my F1 analysis into a presentable notebook/dashboard/Shiny applicati
 
 ** pmdgp  
 
-I've decided against publishing this as the work to get the data generating process working was detracting from the main goal of reliably monitoring model drift via a dashboard. 
+I've decided against publishing this as the work to get the data generating process working was detracting from the main goal of reliably monitoring model drift via a dashboard. In the end, it was a great primer on using Vowpal Wabbit/multi armed bandits. 
 
-~~I'm teaching myself model drift monitoring by building a world that drifts on command (work in progress). I didn't feel comfortable trying to learn how to use these tools without good data; I couldn't find anything that had any prebuilt drifts that I was happy with.  So instead of pointing monitoring tools at data I didn't like, I'm building the data-generating process myself: a stochastic machine-degradation simulation with seven configurable drift regimes I can inject at will. 
+~~I'm teaching myself model drift monitoring by building a world that drifts on command (work in progress). I didn't feel comfortable trying to learn how to use these tools without good data; I couldn't find anything that had any prebuilt drifts that I was happy with.  So instead of pointing monitoring tools at data I didn't like, I'm building the data-generating process myself: a stochastic machine-degradation simulation with seven configurable drift regimes I can inject at will.~~ 
 
-The data generating process models the operation of a machine in a factory and the wear-and-tear of daily use. We also model the costs associated with repair, and multiple repairmen with different skill sets. 
+~~The data generating process models the operation of a machine in a factory and the wear-and-tear of daily use. We also model the costs associated with repair, and multiple repairmen with different skill sets.~~
 
-Currently using four models to predict when the machine needs to be serviced:
-- An Oracle model that sees the ground truth and knows exactly when and how the machine will break\which repairman to call, 
-- A Vowpal Wabbit contextual bandit,
-- a Bayesian Dynamic linear model, and 
-- a fixed repair schuedule of thirty days.~~
+~~Currently using four models to predict when the machine needs to be serviced:~~
+~~- An Oracle model that sees the ground truth and knows exactly when and how the machine will break\which repairman to call,~~
+~~- A Vowpal Wabbit contextual bandit,~~
+~~- a Bayesian Dynamic linear model, and~~
+~~-a fixed repair schuedule of thirty days.~~
 
 
 [LinkedIn](https://linkedin.com/in/craigjallen) 
